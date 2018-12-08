@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "754879858528",
+    "firebase_url": "https://previemos.firebaseio.com",
+    "project_id": "previemos",
+    "storage_bucket": "previemos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754879858528:android:151628d3441f82f0",
+        "android_client_info": {
+          "package_name": "com.thinco.previemos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754879858528-qcl7cicbisse1ulg808cq9ivdlo56jh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thinco.previemos",
+            "certificate_hash": "e63f48f4be9881f86cc83c23a848c3056dff30ea"
+          }
+        },
+        {
+          "client_id": "754879858528-7hlri1dpcer5plbemu78bjmbdlqj62ii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thinco.previemos",
+            "certificate_hash": "3ba36c4f10f46514d3d72e8e3c585f1ad38a8aea"
+          }
+        },
+        {
+          "client_id": "754879858528-jdl058fmgjv39urj7ek4eou9hgiednon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYgGERkLwpZ1qphyl2mOBWQR7y5EXijSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754879858528-jdl058fmgjv39urj7ek4eou9hgiednon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
