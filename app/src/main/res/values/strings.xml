@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Previemos</string>
-    <string name="facebook_app_id">296013304353741</string> <string name="fb_login_protocol_scheme">fb296013304353741</string>
+    <string name="facebook_app_id">296013304353741</string>
+    <string name="fb_login_protocol_scheme">fb296013304353741</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="like_button_text">Me gusta</string>
+    <string name="other_previa_picture">Fotografia de la previa</string>
+    <string name="search_previas">Buscar previas</string>
+    <string name="user_profile">Perfil del usuario</string>
 
 </resources>
