@@ -101,16 +101,19 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        Toast.makeText(this, "Entre en el onStart", Toast.LENGTH_SHORT).show();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         updateUI(currentUser);
 
         }
 
     private void updateUI(FirebaseUser currentUser) {
-        if ( currentUser == null){
+        if ( currentUser != null){
             Intent intent = new Intent(getApplicationContext(),InicioActivity.class);
             startActivity(intent);
             Toast.makeText(this, "Logeado correctamente", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(this, "No hay usuario logeado actualmente", Toast.LENGTH_SHORT).show();
         }
     }
 }

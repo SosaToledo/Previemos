@@ -10,5 +10,10 @@
     <string name="log_out">Cerrar sesion</string>
     <string name="hint_new_previa">Ponele un nombre a tu previa</string>
     <string name="location_of_previa">Ubicación</string>
+    <string name="glasses">Vasos</string>
+    <string name="speakers_and_music">Música</string>
+    <string name="Drinks">Bebidas</string>
+    <string name="Cokes_and_not_alcohol">Gaseosas</string>
+    <string name="private_previa">Solo invitados</string>
 
 </resources>

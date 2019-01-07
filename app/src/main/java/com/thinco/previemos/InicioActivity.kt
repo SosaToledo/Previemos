@@ -28,6 +28,7 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Debug
 import android.util.Log
 import com.facebook.*
+import com.facebook.login.LoginManager
 import de.hdodenhof.circleimageview.CircleImageView
 import org.json.JSONObject
 import java.net.URL
@@ -102,9 +103,6 @@ class InicioActivity : AppCompatActivity() {
         request.executeAsync()
 
 
-
-        Log.d("TAGGGG", name + "Nombre  + id:" + fbid)
-
         dialog.setView(view)
         dialog.setCancelable(false)
         val dialogShow = dialog.create()
@@ -116,7 +114,10 @@ class InicioActivity : AppCompatActivity() {
         }
 
         btnLogOut.setOnClickListener {
+            FirebaseAuth.getInstance().signOut()
+            LoginManager.getInstance().logOut()
             dialogShow.dismiss()
+            finish()
         }
     }
 

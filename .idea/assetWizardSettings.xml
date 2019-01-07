@@ -28,10 +28,13 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_favorite_white_24dp" />
+                            <entry key="height" value="70" />
+                            <entry key="outputName" value="ic_dance" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\Frank" />
+                            <entry key="sourceFile" value="C:\Users\Frank\AndroidStudioProjects\Previemos\app\src\main\res\drawable\dance.svg" />
+                            <entry key="width" value="70" />
                           </map>
                         </option>
                       </PersistentState>
