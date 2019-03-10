@@ -11,6 +11,7 @@ import java.util.*
 
 class previasDAO() {
     //TODO instanciar cada vez que se hagan consultas con previas.
+    //TODO cambiar la implementacion por un metodo estatico
     val database = FirebaseDatabase.getInstance()
     val myRef = database.getReference("previas")
 

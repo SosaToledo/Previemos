@@ -15,5 +15,7 @@
     <string name="Drinks">Bebidas</string>
     <string name="Cokes_and_not_alcohol">Gaseosas</string>
     <string name="private_previa">Solo invitados</string>
+    <string name="marca_lo_que_ya_tenes_en_tu_previa">Marca lo que ya tenes en tu previa</string>
+    <string name="foto_de_la_previa">Foto de la previa</string>
 
 </resources>

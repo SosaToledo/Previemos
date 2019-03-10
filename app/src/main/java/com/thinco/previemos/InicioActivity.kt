@@ -77,7 +77,7 @@ class InicioActivity : AppCompatActivity() {
         var tvProfileName = view.findViewById<View>(R.id.tvUserName) as TextView
         var imgProfile = view.findViewById<ProfilePictureView>(R.id.facebookProfilePic)
 
-        var request = GraphRequest.newMeRequest(AccessToken.getCurrentAccessToken()) { `object`, response ->
+        var request = GraphRequest.newMeRequest(AccessToken.getCurrentAccessToken()) { `object`, _ ->
             try {
                 //here is the data that you want
                 Log.d("FBLOGIN_JSON_RES", `object`.toString())
